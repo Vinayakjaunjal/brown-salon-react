@@ -1,0 +1,20 @@
+.service-card {
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  transition: 0.3s;
+  border: 1px solid #877521;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  border-color: gold;
+}
+
+.service-icon {
+  font-size: 42px;
+  color: gold;
+  margin-bottom: 10px;
+}
