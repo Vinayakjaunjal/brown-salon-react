@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Hero.css";
+import heroImg from "../assets/hero-banner-interior.jpg";
 
 function Hero() {
   return (
@@ -8,7 +9,7 @@ function Hero() {
       className="hero-parallax d-flex align-items-center text-center text-light"
     >
       <img
-        src="/src/assets/hero-banner-interior.jpg"
+        src={heroImg}
         alt="Brown Hair Salon Interior"
         className="hero-bg"
         loading="eager"

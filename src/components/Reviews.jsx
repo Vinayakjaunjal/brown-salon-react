@@ -1,5 +1,10 @@
 import { useState, useEffect } from "react";
 import "../styles/Reviews.css";
+import review1 from "../assets/Review-ashish.jpg";
+import review2 from "../assets/Review-nikita.jpg";
+import review3 from "../assets/Review-dhanraj.jpg";
+import review4 from "../assets/Review-swayam.jpg";
+import review5 from "../assets/Review-damini.jpg";
 
 const reviews = [
   {
@@ -7,31 +12,31 @@ const reviews = [
     review:
       "Amazing salon experience! The stylists are very professional and friendly. My haircut was perfect and the ambiance is premium.",
     rating: 5,
-    image: "src/assets/Review-ashish.jpg",
+    image: review1,
   },
   {
     name: "Nikita Chambhare",
     review: "Very friendly staff and great service. Highly recommended!",
     rating: 4,
-    image: "src/assets/Review-nikita.jpg",
+    image: review2,
   },
   {
     name: "Dhanraj Tikhat",
     review: "I loved the hair spa. Very relaxing environment.",
     rating: 5,
-    image: "src/assets/Review-dhanraj.jpg",
+    image: review3,
   },
   {
     name: "Swayam Moon",
     review: "I loved the hair spa. Very relaxing environment.",
     rating: 5,
-    image: "src/assets/Review-swayam.jpg",
+    image: review4,
   },
   {
     name: "Damini Dahake",
     review: "I loved the hair spa. Very relaxing environment.",
     rating: 5,
-    image: "src/assets/Review-damini.jpg",
+    image: review5,
   },
 ];
 

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import { FaCheckCircle } from "react-icons/fa";
+import aboutImg from "../assets/about-brown.jpg";
 
 const About = () => {
   return (
