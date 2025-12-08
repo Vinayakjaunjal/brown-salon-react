@@ -3,6 +3,12 @@ import "../styles/Hero.css";
 import heroImg from "../assets/hero-banner-interior.jpg";
 
 function Hero() {
+  const goToAppointment = () => {
+    const section = document.getElementById("appointment");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section
       id="home"
@@ -24,9 +30,9 @@ function Hero() {
           Salon where beauty meets luxury.
         </p>
 
-        <a href="#appointment" className="btn btn-gold btn-sm shadow">
-          Book Appointment
-        </a>
+        <button className="book-btn" onClick={goToAppointment}>
+          BOOK Appointment Now
+        </button>
       </div>
     </section>
   );
